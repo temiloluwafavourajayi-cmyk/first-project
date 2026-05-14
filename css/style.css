@@ -1,0 +1,19 @@
+.link:hover {
+  color: brown;
+  background-color: yellow;
+}
+
+.box {
+    background-color: aqua;
+    color: black;
+    border: 10px solid brown;
+    margin: 200px auto;   /* centers horizontally */
+    padding: 15px;       /* balanced within border spacing */
+    width: fit-content;  /* anti-stretching */
+    box-shadow: 10px 10px 10px;
+}
+
+.link{
+    width: 400px;
+    height: 40px;
+}

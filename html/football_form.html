@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>New football player form</title>
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <!-- working with forms -->
+    <form name="contact" autocomplete="off" class="box">
+      <label for="Surname">Surname:</label>
+      <input
+        type="text"
+        name="Surname"
+        placeholder="Enter your surname here"
+        id="Player surname"
+        maxlength="20"
+      />
+      <br />
+      <br />
+      <br />
+
+      <label for="Middle name">Middle name:</label>
+      <input
+        type="Middle name "
+        name="Middle name "
+        placeholder="Enter your Middle name "
+        id="Middle name "
+        maxlength="20"
+      />
+      <br />
+      <br />
+      <br />
+
+      <label for="Last name">Last name:</label>
+      <input
+        type="Last name "
+        name="Last name "
+        placeholder="Enter your Last name "
+        id="Last name "
+        maxlength="20"
+      />
+      <br />
+      <br />
+      <br />
+
+      <input type="radio" name="gender" value="male" id="gender" checked /> Male
+
+      <input type="radio" name="gender" value="female" id="gender" /> Female
+      <br />
+      <br />
+      <br />
+
+      <p>Select your country of origin</p>
+      <select name="country" id="country">
+        <option value="Nigeria">Nigeria</option>
+        <option value="Ghana">Ghana</option>
+        <option value="Togo">Togo</option>
+        <option value="Benin">Benin</option>
+        <option value="Niger">Niger</option>
+      </select>
+      <br />
+      <br />
+      <br />
+
+      <p>Select your state of origin</p>
+      <select name="country" id="country">
+        <option value="A">A</option>
+        <option value="B">B</option>
+        <option value="S">S</option>
+        <option value="H">H</option>
+        <option value="L">L</option>
+      </select>
+      <br />
+      <br />
+      <br />
+
+      <textarea
+        name="comments"
+        id="comments"
+        placeholder="Add your comments"
+        required
+      ></textarea>
+      <br />
+      <br />
+      <br />
+
+      <label for="resume">Upload your resume</label>
+      <input type="file" name="resume" id="resume" accept="image/jpeg" />
+
+      <br />
+      <br />
+      <br />
+
+      <div>
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          name="email"
+          placeholder="Enter your email"
+          id="email"
+          maxlength="30"
+        />
+      </div>
+      <br />
+      <br />
+      <br />
+
+      <div>
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          name="password"
+          placeholder="Enter your password"
+          id="password"
+          maxlength="30"
+        />
+      </div>
+      <br />
+      <br />
+      <br />
+      <button type="submit" class="link">Submit</button>
+    </form>
+  </body>
+</html>
